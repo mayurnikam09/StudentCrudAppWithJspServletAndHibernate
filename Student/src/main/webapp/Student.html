@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Details</title>
+</head>
+<body>
+	<h1
+		style="text-align: center; color: white; background-color: green; width: 100%">
+		----Student Details----</h1>
+	<hr>
+
+
+	<h1 style="text-align: center; color: green;">--INSERT DATA--</h1>
+	<form action="InsertServlet" style="text-align: center;" method="get">
+		Student Name:<input type="text" name="name"><br>
+		<br> Student Marks:<input type="text" name="marks"><br>
+		<br> Student city:<input type="text" name="city"><br>
+		
+		<br> Course:
+		<input type="radio" name="course"value="Full Stack Java">Full Stack Java</input><br> 
+		<input type="radio" name="course" value="Full Stack .Net">Full Stack.Net</input><br> 
+		<input type="radio" name="course" value="Mean Mearn">Mean Mearn</input><br>
+		
+		<br> Student Gender:<input type="radio" name="gender"
+			value="male">Male</input> <input type="radio" name="gender"
+			value="Female">Female</input><br>
+		<br> 
+		<input type="submit" value="INSERT"> 
+		<input type="reset" value="RESET">
+		<hr>
+	</form>
+
+
+	<h1 style="text-align: center; color: green;">--DELETE DATA--</h1>
+	<form action="DeleteServlet" method="get" style="text-align: center;">
+		Student Id:<input type="text" name="id"><br>
+		<br> <input type="submit" value="DELETE"> <input
+			type="reset" value="RESET">
+		<hr>
+	</form>
+
+
+	<h1 style="text-align: center; color: green;">--DISPLAY DATA--</h1>
+	<form action="DisplayServlet" style="text-align: center;">
+		<input type="submit" value="SHOW DATA">
+		<hr>
+	</form>
+</body>
+</html>

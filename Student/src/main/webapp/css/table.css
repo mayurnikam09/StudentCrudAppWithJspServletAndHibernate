@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+table
+{
+	border-collapse:collapse;
+	width:100%;
+	border: 2px solid #ddd;
+}
+tr,td
+{
+	padding: 8px;
+	text-align: center;
+	border: 2px solid #ddd;
+	
+}
+tr:hover{background-color: coral;}
+
+
+h1
+{
+	color:white;
+	text-align: center;
+	background-color: orange;
+}
+
+
+	
